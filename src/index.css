@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  display: grid;
+  background: rgb(171, 152, 118);
+}
+.weather{
+  place-self: center;
+  padding: 40px;
+  border-radius: 20px;
+  background: linear-gradient(45deg , #2f4680 ,#500ae4);
+}
+.temp{
+  color: #fff;
+  font-size: 60px;
+  list-style: 1;
+}
+.location{
+  color: #fff;
+  font-size: 40px;
+}
